@@ -25,8 +25,8 @@
     letter-spacing: 14px;
     line-height: 19px;
     height: 100%;
-    color: white;
     text-align: right;
 }
-.social-icons > i {
+.social-icons > a {
+    color: white;
 }
