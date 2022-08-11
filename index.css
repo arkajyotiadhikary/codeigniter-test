@@ -1,3 +1,20 @@
+@font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Montserrat-Regular"),
+        url(http://fonts.gstatic.com/s/montserrat/v6/zhcz-_WihjSQC0oHJ9TCYC3USBnSvpkopQaUR-2r7iU.ttf)
+            format("truetype");
+}
+
+@font-face {
+    font-family: "Montserrat";
+    font-style: bold;
+    font-weight: 700;
+    src: local("Montserrat-Bold"),
+        url(http://fonts.gstatic.com/s/montserrat/v6/IQHow_FEYlDC4Gzy_m8fcvEr6Hm6RMS0v1dtXsGir4g.ttf)
+            format("truetype");
+}
 * {
     margin: 0;
     font-family: "Montserrat";
@@ -87,6 +104,10 @@
     line-height: 40px;
     text-align: start;
 }
+.logo > h1 {
+    text-align: start;
+    margin-bottom: 3px;
+}
 .blog-pages {
     width: 810px;
 }
@@ -136,7 +157,7 @@
 .slide > p {
     text-align: center;
     color: white;
-    font-size: 28px;
+    font-size: 20px;
     letter-spacing: 1px;
     padding: 0 20px;
     line-height: 27px;
@@ -146,16 +167,22 @@
     text-align: center;
     color: white;
     font-size: 42px;
+    margin-right: 6px;
     letter-spacing: 2px;
-    font-weight: bold;
-    padding: 25px 50px;
+    font-weight: 1200;
+    padding: 14px 80px;
 }
 .slide > button {
     width: 170px;
     height: 45px;
     border-radius: 22px;
+    margin-top: 13px;
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 36px;
+    font-weight: 400;
     background-color: #303f9f;
-    color: white;
+    color: #ffffff;
 }
 
 .slide .author {
