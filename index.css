@@ -1,20 +1,20 @@
 * {
     margin: 0;
+    font-family: "Montserrat";
     padding: 0;
 }
 
-.header {
-}
-
+/* top menu */
 .top-menu {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 40px;
-    background-color: black;
+    background-color: #191919;
 }
-
-.container {
+.top-menu .container {
+    display: flex;
+    align-items: center;
     width: 1170px;
     height: 100%;
 }
@@ -28,5 +28,91 @@
     text-align: right;
 }
 .social-icons > a {
-    color: white;
+    color: #707070;
+}
+
+.right-top-menu {
+    display: flex;
+    margin-left: auto;
+}
+.right-top-menu .sign-in {
+    display: flex;
+    align-items: center;
+    line-height: 27px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding: 0 15px;
+    color: #707070;
+    border-right: 1px solid;
+}
+/* .right-top-menu .sign-in > span .material-symbols-outlined {
+    background-color: #707070;
+    color: black;
+} */
+.right-top-menu .language {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    line-height: 19px;
+    letter-spacing: 1px;
+    padding: 0 15px;
+    color: #707070;
+}
+.right-top-menu .sign-in > i {
+    padding: 0 6px;
+}
+
+/* main menu */
+
+.main-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+    background-color: #929cd5;
+}
+.main-menu .container {
+    color: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1170px;
+    height: 100%;
+}
+.logo {
+    padding-right: 85px;
+    font-size: 11px;
+    letter-spacing: 3px;
+    line-height: 40px;
+    text-align: start;
+}
+.blog-pages {
+    width: 810px;
+}
+.page-list {
+    list-style: none;
+    display: flex;
+}
+.page-list > li {
+    letter-spacing: 1px;
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    padding: 0 11px;
+}
+.right-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 140px;
+}
+.right-icons :nth-child(1) {
+    border-right: 1px solid rgb(255, 255, 255);
+    padding-right: 12px;
+}
+.right-icons :nth-child(3) {
+    border-left: 1px solid rgb(255, 255, 255);
+    padding-left: 12px;
+    margin-right: 10px;
 }
