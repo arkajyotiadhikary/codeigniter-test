@@ -2,8 +2,8 @@
     margin: 0;
     font-family: "Montserrat";
     padding: 0;
+    border: 0;
 }
-
 /* top menu */
 .top-menu {
     display: flex;
@@ -39,23 +39,23 @@
     display: flex;
     align-items: center;
     line-height: 27px;
-    font-size: 12px;
+    font-size: 10px;
     letter-spacing: 1px;
     padding: 0 15px;
     color: #707070;
     border-right: 1px solid;
 }
-/* .right-top-menu .sign-in > span .material-symbols-outlined {
-    background-color: #707070;
-    color: black;
-} */
+.right-top-menu .sign-in .material-symbols-outlined {
+    font-size: 15px;
+    padding: 0 5px;
+}
+
 .right-top-menu .language {
     display: flex;
     align-items: center;
-    font-size: 12px;
+    font-size: 10px;
     line-height: 19px;
     letter-spacing: 1px;
-    padding: 0 15px;
     color: #707070;
 }
 .right-top-menu .sign-in > i {
@@ -115,4 +115,87 @@
     border-left: 1px solid rgb(255, 255, 255);
     padding-left: 12px;
     margin-right: 10px;
+}
+
+/* title */
+.title {
+    height: 730px;
+    background-color: #212121;
+    display: flex;
+    justify-content: center;
+}
+.slide {
+    margin-top: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 1170px;
+    height: 100%;
+}
+.slide > p {
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    letter-spacing: 1px;
+    padding: 0 20px;
+    line-height: 27px;
+}
+
+.slide > h1 {
+    text-align: center;
+    color: white;
+    font-size: 42px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    padding: 25px 50px;
+}
+.slide > button {
+    width: 170px;
+    height: 45px;
+    border-radius: 22px;
+    background-color: #303f9f;
+    color: white;
+}
+
+.slide .author {
+    margin-top: 82px;
+    color: white;
+    text-align: center;
+}
+
+.slide .author > img {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+.slide .author .name {
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 27px;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+}
+.slide .author .date {
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 27px;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: center;
+}
+.slide .states {
+    display: flex;
+    align-items: center;
+}
+.slide .states .comments {
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.slide .states .likes {
+    color: white;
+    display: flex;
+    align-items: center;
 }
