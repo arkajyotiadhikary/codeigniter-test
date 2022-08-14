@@ -109,17 +109,17 @@
     height: 100%;
 }
 .logo {
-    padding-right: 85px;
-    font-size: 11px;
     letter-spacing: 3px;
     line-height: 40px;
     text-align: start;
 }
 .logo > h1 {
+    font-size: 22px;
     text-align: start;
     margin-bottom: 3px;
 }
 .blog-pages {
+    margin-left: 95px;
     width: 810px;
 }
 .page-list {
@@ -127,12 +127,17 @@
     display: flex;
 }
 .page-list > li {
-    letter-spacing: 1px;
     display: flex;
     font-size: 14px;
     align-items: center;
     padding: 0 11px;
 }
+
+.page-list .material-symbols-outlined {
+    padding-left: 6px;
+    font-size: 20px;
+}
+
 .right-icons {
     display: flex;
     justify-content: space-around;
