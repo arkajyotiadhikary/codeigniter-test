@@ -60,11 +60,13 @@
     letter-spacing: 1px;
     padding: 0 15px;
     color: #707070;
-    border-right: 1px solid;
 }
 .right-top-menu .sign-in .material-symbols-outlined {
-    font-size: 15px;
-    padding: 0 5px;
+    font-size: 18px;
+    padding: 0 6px;
+}
+.right-top-menu .sign-in > i {
+    padding: 0 6px;
 }
 
 .right-top-menu .language {
@@ -74,9 +76,18 @@
     line-height: 19px;
     letter-spacing: 1px;
     color: #707070;
+    padding-top: 1px;
 }
-.right-top-menu .sign-in > i {
-    padding: 0 6px;
+
+.right-top-menu .language > i {
+    font-size: 18px;
+    margin-right: 5px;
+    padding-left: 16px;
+    border-left: 1px solid white;
+}
+.right-top-menu .language .material-symbols-outlined {
+    width: 16px;
+    font-size: 20px;
 }
 
 /* main menu */
@@ -186,12 +197,13 @@
 }
 
 .slide .author {
-    margin-top: 82px;
+    margin-top: 80px;
     color: white;
     text-align: center;
 }
 
 .slide .author > img {
+    padding-right: 4px;
     width: 50px;
     height: 50px;
     border-radius: 25px;
@@ -203,26 +215,42 @@
     color: #ffffff;
     font-weight: 700;
     text-align: center;
+    margin-top: 7px;
+    padding-left: 1px;
 }
 .slide .author .date {
     font-size: 12px;
     letter-spacing: 1px;
-    line-height: 27px;
+    line-height: 23px;
     color: #ffffff;
     font-weight: 400;
     text-align: center;
+    padding-right: 6px;
 }
 .slide .states {
     display: flex;
     align-items: center;
+    width: 245px;
+    margin-top: 28px;
 }
 .slide .states .comments {
+    font-size: 12px;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+.slide .states .comments > span {
+    font-size: 18px;
+    margin-right: 8px;
+}
+.slide .states .likes {
+    font-size: 12px;
     color: white;
     display: flex;
     align-items: center;
 }
-.slide .states .likes {
-    color: white;
-    display: flex;
-    align-items: center;
+.slide .states .likes > span {
+    font-size: 18px;
+    margin-right: 8px;
 }
