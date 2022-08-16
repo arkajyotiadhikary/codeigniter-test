@@ -125,6 +125,7 @@
 }
 .page-list > li {
     display: flex;
+    font-weight: 700;
     font-size: 14px;
     align-items: center;
     padding: 0 11px;
@@ -137,16 +138,21 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 140px;
+    width: 139px;
 }
 .right-icons :nth-child(1) {
     border-right: 1px solid rgb(255, 255, 255);
     padding-right: 12px;
+    height: 30px;
+    padding-top: 4px;
 }
+
 .right-icons :nth-child(3) {
     border-left: 1px solid rgb(255, 255, 255);
-    padding-left: 12px;
+    padding-left: 13px;
     margin-right: 10px;
+    height: 30px;
+    padding-top: 4px;
 }
 
 /* title */
