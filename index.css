@@ -6,7 +6,6 @@
         url(http://fonts.gstatic.com/s/montserrat/v6/zhcz-_WihjSQC0oHJ9TCYC3USBnSvpkopQaUR-2r7iU.ttf)
             format("truetype");
 }
-
 @font-face {
     font-family: "Montserrat";
     font-style: bold;
@@ -15,12 +14,14 @@
         url(http://fonts.gstatic.com/s/montserrat/v6/IQHow_FEYlDC4Gzy_m8fcvEr6Hm6RMS0v1dtXsGir4g.ttf)
             format("truetype");
 }
+
 * {
     margin: 0;
     font-family: "Montserrat";
     padding: 0;
     border: 0;
 }
+
 /* top menu */
 .top-menu {
     display: flex;
@@ -47,7 +48,6 @@
 .social-icons > a {
     color: #707070;
 }
-
 .right-top-menu {
     display: flex;
     margin-left: auto;
@@ -68,7 +68,6 @@
 .right-top-menu .sign-in > i {
     padding: 0 6px;
 }
-
 .right-top-menu .language {
     display: flex;
     align-items: center;
@@ -78,7 +77,6 @@
     color: #707070;
     padding-top: 1px;
 }
-
 .right-top-menu .language > i {
     font-size: 18px;
     margin-right: 5px;
@@ -91,7 +89,6 @@
 }
 
 /* main menu */
-
 .main-menu {
     display: flex;
     align-items: center;
@@ -132,12 +129,10 @@
     align-items: center;
     padding: 0 11px;
 }
-
 .page-list .material-symbols-outlined {
     padding-left: 6px;
     font-size: 20px;
 }
-
 .right-icons {
     display: flex;
     justify-content: space-around;
