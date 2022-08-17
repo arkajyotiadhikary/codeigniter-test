@@ -176,29 +176,32 @@
     height: 100%;
 }
 .slide > p {
+    margin-left: 4px;
     text-align: center;
     color: white;
     font-size: 20px;
+    font-weight: 400;
     letter-spacing: 1px;
     padding: 0 20px;
     line-height: 27px;
 }
 
 .slide > h1 {
+    margin-left: 7px;
+    font-weight: 900;
     width: 810px;
+    line-height: 50px;
     text-align: center;
     color: white;
-    font-size: 42px;
-    margin-right: 6px;
+    font-size: 42.55px;
     letter-spacing: 2px;
-    font-weight: 900;
     padding: 14px 0px;
 }
 .slide > button {
     width: 170px;
     height: 45px;
     border-radius: 22px;
-    margin-top: 13px;
+    margin-top: 17px;
     font-size: 17px;
     letter-spacing: 1px;
     line-height: 36px;
@@ -236,7 +239,7 @@
     color: #ffffff;
     font-weight: 400;
     text-align: center;
-    padding-right: 6px;
+    padding-right: 2px;
 }
 .slide .states {
     display: flex;
@@ -263,5 +266,6 @@
 }
 .slide .states .likes > span {
     font-size: 18px;
-    margin-right: 8px;
+    margin-left: 3px;
+    margin-right: 5px;
 }
