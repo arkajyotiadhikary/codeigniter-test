@@ -301,7 +301,7 @@
 }
 .sort .container > p {
     padding-top: 2px;
-    font-size: 9px;
+    font-size: 11px;
     letter-spacing: 1px;
     line-height: 27px;
     color: #000000;
@@ -311,72 +311,46 @@
     display: flex;
     align-items: center;
     list-style: none;
-    margin-left: 29px;
+    margin-left: 18px;
 }
 .sort .container .catagories > li {
     margin-right: 15px;
 }
-.sort .container .catagories > li:nth-child(1) {
+.sort .container .catagories > li > button {
     text-align: center;
-    height: 28px;
-    width: 78px;
     border-radius: 15px;
     font-size: 8px;
     letter-spacing: 1px;
     line-height: 8px;
-    color: #3f51b5;
     background-color: #eeeeee;
-    border: 1px solid #3f51b5;
-}
-.sort .container .catagories > li:nth-child(2) {
-    text-align: center;
-    width: 148px;
-    height: 30px;
-    border-radius: 15px;
-    background-color: #eeeeee;
-    border: 1px solid #3f51b5;
-    font-size: 16px;
-    letter-spacing: 1px;
-    line-height: 27px;
-    color: #3f51b5;
     font-weight: 400;
 }
-.sort .container .catagories > li:nth-child(3) {
-    text-align: center;
-    width: 118px;
+.sort .container .catagories > li:nth-child(1) > button {
     height: 30px;
-    border-radius: 15px;
-    background-color: #eeeeee;
-    border: 1px solid #3f51b5;
-    font-size: 16px;
-    letter-spacing: 1px;
-    line-height: 27px;
-    color: #3f51b5;
-    font-weight: 400;
+    width: 80px;
 }
-.sort .container .catagories > li:nth-child(4) {
-    text-align: center;
-    width: 78px;
+.sort .container .catagories > li:nth-child(2) > button {
+    width: 150px;
     height: 30px;
-    border-radius: 15px;
-    background-color: #eeeeee;
-    border: 1px solid #3f51b5;
-    font-size: 16px;
-    letter-spacing: 1px;
-    line-height: 27px;
-    color: #3f51b5;
-    font-weight: 400;
 }
-.sort .container .catagories > li:nth-child(5) {
-    text-align: center;
-    width: 128px;
+.sort .container .catagories > li:nth-child(3) > button {
+    width: 120px;
     height: 30px;
-    border-radius: 15px;
-    background-color: #eeeeee;
+}
+.sort .container .catagories > li:nth-child(4) > button {
+    width: 80px;
+    height: 30px;
+}
+.sort .container .catagories > li:nth-child(5) > button {
+    width: 130px;
+    height: 30px;
+}
+.sort .container .catagories .selected {
     border: 1px solid #3f51b5;
-    font-size: 16px;
-    letter-spacing: 1px;
-    line-height: 27px;
     color: #3f51b5;
-    font-weight: 400;
+}
+.sort .container .catagories > li > button:hover {
+    background-color: #707070;
+    color: white;
+    cursor: pointer;
 }
