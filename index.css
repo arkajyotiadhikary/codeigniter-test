@@ -690,16 +690,17 @@
 
 /* sidebar */
 .right-sidebar {
-    width: 100%;
+    width: 685px;
     margin-top: 31px;
     margin-left: 40px;
     background-color: white;
 }
 .search {
-    margin-top: 23px;
     display: flex;
-    justify-content: end;
-    align-items: center;
+    flex-direction: column;
+    margin-top: 23px;
+    justify-content: center;
+    align-items: end;
 }
 .search-bar {
     display: flex;
@@ -734,4 +735,23 @@
     filter: drop-shadow(0px 2px 6.5px rgba(0, 0, 0, 0.12));
     background-color: #ff4081;
 }
+
+.catagories-right {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+.catagories-right .catgori {
+    width: 270px;
+}
+.catagories-right .catgori > p:nth-child(1) {
+    margin-top: 26px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #3f51b5;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #3f51b5;
+    font-weight: 700;
+}
+
 /* !SECTION */ ;
