@@ -930,7 +930,6 @@
     margin-left: 40px;
     margin-top: 19px;
 }
-
 .tab-post-widget .toogle-button > button {
     width: 135px;
     height: 40px;
@@ -949,5 +948,52 @@
 .tab-post-widget .toogle-button > button.selected {
     background-color: #3f51b5;
     color: white;
+}
+
+/* posts */
+.posts {
+    margin-top: 20px;
+}
+.post {
+    display: flex;
+    margin-left: 39px;
+    padding-bottom: 11px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #dee5e9;
+}
+.post-img > img {
+    width: 100px;
+    height: 80px;
+}
+.post-details > p {
+    font-size: 12px;
+    padding-top: 5px;
+    line-height: 24px;
+    color: #000000;
+    font-weight: 400;
+    margin-left: 16px;
+}
+.post-details .top-details {
+    margin-left: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.post-details .top-details > p {
+    font-size: 12px;
+    line-height: 8px;
+    color: #000000;
+    font-weight: 400;
+}
+.post-details .top-details > div {
+    font-size: 12px;
+    line-height: 8px;
+    display: flex;
+    align-items: center;
+}
+.post-details .top-details > div > span {
+    color: #3f51b5;
+    padding-right: 7px;
+    font-size: 14px;
+    line-height: 8px;
 }
 /* !SECTION */ ;
