@@ -609,7 +609,6 @@
 }
 
 /* bottom article */
-
 .bottom-articles {
     display: flex;
     justify-content: space-between;
@@ -840,7 +839,6 @@
     background-color: #ffffff;
     border: 1px solid #000000;
 }
-
 .subscribe > form > button {
     margin-top: 10px;
     margin-left: 40px;
@@ -853,6 +851,49 @@
     line-height: 36px;
     color: #ffffff;
     font-weight: 400;
+}
+
+/* or */
+.or {
+    margin-top: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.or > p {
+    margin: 0 7px;
+}
+.or .or-bar {
+    background-color: black;
+    margin-top: 1px;
+    width: 120px;
+    height: 1px;
+}
+
+/* social icons right */
+.social-icons-right {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 41px;
+    height: 36px;
+    width: 266px;
+}
+.social-icons-right > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: none;
+    text-decoration: none;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 18px;
+    background-color: #3b5999;
+    font-size: 18px;
+    line-height: 19px;
+    color: #ffffff;
+    text-align: right;
 }
 
 /* !SECTION */ ;
