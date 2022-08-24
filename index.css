@@ -889,11 +889,28 @@
     width: 36px;
     height: 36px;
     border-radius: 18px;
-    background-color: #3b5999;
     font-size: 18px;
     line-height: 19px;
     color: #ffffff;
     text-align: right;
+}
+.social-icons-right > a:nth-child(1) {
+    background-color: #3b5999;
+}
+.social-icons-right > a:nth-child(2) {
+    background-color: #55acee;
+}
+.social-icons-right > a:nth-child(3) {
+    background-color: #4c75a3;
+}
+.social-icons-right > a:nth-child(4) {
+    background-color: #ff2e56;
+}
+.social-icons-right > a:nth-child(5) {
+    background-color: #34465d;
+}
+.social-icons-right > a:nth-child(6) {
+    background-color: #ea4c89;
 }
 
 /* !SECTION */ ;
