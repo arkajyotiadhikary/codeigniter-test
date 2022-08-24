@@ -859,6 +859,7 @@
     display: flex;
     align-items: center;
     justify-content: end;
+    padding-right: 1px;
 }
 .or > p {
     margin: 0 7px;
@@ -874,7 +875,7 @@
 .social-icons-right {
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
+    margin-top: 19px;
     margin-left: 41px;
     height: 36px;
     width: 266px;
@@ -913,4 +914,40 @@
     background-color: #ea4c89;
 }
 
+/* tab post widget */
+.tab-post-widget .post-title > p {
+    margin-left: 39px;
+    margin-top: 45px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #3f51b5;
+    color: #3f51b5;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.tab-post-widget .toogle-button {
+    display: flex;
+    margin-left: 40px;
+    margin-top: 19px;
+}
+
+.tab-post-widget .toogle-button > button {
+    width: 135px;
+    height: 40px;
+    padding-right: 4px;
+    padding-top: 1px;
+    color: #3f51b5;
+    border: 1px solid #3f51b5;
+    font-size: 11px;
+}
+.tab-post-widget .toogle-button > button:nth-child(1) {
+    border-radius: 4px 0 0 4px;
+}
+.tab-post-widget .toogle-button > button:nth-child(2) {
+    border-radius: 0 4px 4px 0;
+}
+.tab-post-widget .toogle-button > button.selected {
+    background-color: #3f51b5;
+    color: white;
+}
 /* !SECTION */ ;
