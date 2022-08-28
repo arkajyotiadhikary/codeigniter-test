@@ -1274,9 +1274,7 @@
 .bot-tweet > span > a {
     color: white;
 }
-
 /* ------------------ */
-
 .flicker-title {
     font-size: 18px;
     letter-spacing: 1px;
@@ -1351,4 +1349,54 @@
     margin-bottom: 10px;
     color: white;
     background-color: #303030;
+}
+.social-widget {
+    margin-top: 13px;
+}
+.social-widget > p {
+    padding-left: 2px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-weight: 700;
+}
+.social-icons-widget {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+    height: 36px;
+    width: 266px;
+}
+.social-icons-widget > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: none;
+    text-decoration: none;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 18px;
+    font-size: 18px;
+    line-height: 19px;
+    color: #fff;
+    text-align: right;
+}
+.social-icons-widget > a:nth-child(1) {
+    background-color: #3b5999;
+}
+.social-icons-widget > a:nth-child(2) {
+    background-color: #55acee;
+}
+.social-icons-widget > a:nth-child(3) {
+    background-color: #4c75a3;
+}
+.social-icons-widget > a:nth-child(4) {
+    background-color: #ff2e56;
+}
+.social-icons-widget > a:nth-child(5) {
+    background-color: #34465d;
+}
+.social-icons-widget > a:nth-child(6) {
+    background-color: #ea4c89;
 }
