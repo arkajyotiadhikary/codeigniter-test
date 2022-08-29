@@ -1276,6 +1276,7 @@
 }
 .expand-div > ul {
     overflow: scroll;
+    scrollbar-width: none;
     display: none;
     list-style: none;
 }
