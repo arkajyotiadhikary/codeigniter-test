@@ -1269,7 +1269,26 @@
     border: 1px solid #ffffff;
 }
 .pages-widget > ul > li > div.expand-div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     height: 0px;
+}
+.expand-div > ul {
+    overflow: scroll;
+    display: none;
+    list-style: none;
+}
+.expand-div > ul > li {
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 36px;
+    color: #ffffff;
+    font-weight: 400;
+}
+.expand-div > ul > li > a {
+    text-decoration: none;
+    color: white;
 }
 .pages-widget > ul > li > div {
     display: flex;
