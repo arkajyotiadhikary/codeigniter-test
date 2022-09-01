@@ -397,7 +397,7 @@
     letter-spacing: 3px;
     color: #ffffff;
 }
-.article-img-layout .bot-layout {
+.bot-layout {
     color: white;
     display: flex;
     justify-content: space-between;
@@ -405,29 +405,29 @@
     height: 48px;
     width: 820px;
 }
-.article-img-layout .bot-layout > p {
-    font-size: 16px;
+.bot-layout > p {
+    font-size: 10px;
     letter-spacing: 1px;
     line-height: 27px;
     color: #ffffff;
     font-weight: 400;
     padding-left: 20px;
 }
-.article-img-layout .bot-layout .article-state {
+.article-state {
     padding-right: 20px;
     display: flex;
 }
-.article-img-layout .bot-layout .article-state > div {
+.article-state > div {
     display: flex;
     align-content: center;
-    font-size: 6px;
+    font-size: 10px;
     margin-left: 21px;
     letter-spacing: 1px;
     color: #ffffff;
     font-weight: 400;
 }
-.article-img-layout .bot-layout .article-state > div > span {
-    font-size: 14px;
+.article-state > div > span {
+    font-size: 16px;
     padding-right: 4px;
     letter-spacing: 1px;
     color: #ffffff;
