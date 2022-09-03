@@ -335,15 +335,15 @@
                         <div class="flicker">
                             <p class="flicker-title">FLICKR WIDGET</p>
                             <div class="flicker-grid">
-                                <img src="./image/bot/1.png" alt="" />
-                                <img src="./image/bot/2.png" alt="" />
-                                <img src="./image/bot/3.png" alt="" />
-                                <img src="./image/bot/4.png" alt="" />
-                                <img src="./image/bot/5.png" alt="" />
-                                <img src="./image/bot/6.png" alt="" />
-                                <img src="./image/bot/7.png" alt="" />
-                                <img src="./image/bot/8.png" alt="" />
-                                <img src="./image/bot/9.png" alt="" />
+                                <img src="<?= base_url()?>/public/assets/image/bot/1.png" alt="" />
+                                <img src="<?= base_url()?>/public/assets/image/bot/2.png" alt="" />
+                                <img src="<?= base_url()?>/public/assets/image/bot/3.png" alt="" />
+                                <img src="<?= base_url()?>/public/assets/image/bot/4.png" alt="" />
+                                <img src="<?= base_url()?>/public/assets/image/bot/5.png" alt="" />
+                                <img src="<?= base_url()?>/public/assets/image/bot/6.png" alt="" />
+                                <img src="<?= base_url()?>/public/assets/image/bot/7.png" alt="" />
+                                <img src="<?= base_url()?>/public/assets/image/bot/8.png" alt="" />
+                                <img src="<?= base_url()?>/public/assets/image/bot/9.png" alt="" />
                             </div>
                         </div>
                         <div class="news-letter">
@@ -398,6 +398,6 @@
                 </div>
             </div>
         </div>
-        <script src="./index.js"></script>
+            <script src="<?= base_url();?>/public/assets/index.js"></script>
     </body>
 </html>

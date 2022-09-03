@@ -46,7 +46,7 @@
                                 <div>
                                     <div class="author-img">
                                         <img
-                                            src="./image/author/2.png"
+                                            src="<?= base_url()?>/public/assets/image/author/2.png"
                                             alt=""
                                         />
                                     </div>
@@ -77,7 +77,7 @@
                                         <div>
                                             <div class="mid-author-img">
                                                 <img
-                                                    src="./image/author/3.png"
+                                                    src="<?= base_url()?>/public/assets/image/author/3.png"
                                                     alt=""
                                                 />
                                             </div>
@@ -111,7 +111,7 @@
                                         <div>
                                             <div class="mid-author-img">
                                                 <img
-                                                    src="./image/author/4.png"
+                                                    src="<?= base_url()?>/public/assets/image/author/4.png"
                                                     alt=""
                                                 />
                                             </div>
@@ -145,7 +145,7 @@
                                         <div>
                                             <div class="mid-author-img">
                                                 <img
-                                                    src="./image/author/2.png"
+                                                    src="<?= base_url()?>/public/assets/image/author/2.png"
                                                     alt=""
                                                 />
                                             </div>
@@ -165,7 +165,7 @@
                             <div class="mid-article">
                                 <div class="mid-article-img-2">
                                     <img
-                                        src="./image/article/mid-art-4.png"
+                                        src="<?= base_url()?>/public/assets/image/article/mid-art-4.png"
                                         alt=""
                                     />
                                 </div>
@@ -185,7 +185,7 @@
                                     <div>
                                         <div class="mid-author-img-2">
                                             <img
-                                                src="./image/author/3.png"
+                                                src="<?= base_url()?>/public/assets/image/author/3.png"
                                                 alt=""
                                             />
                                         </div>
@@ -202,7 +202,7 @@
                             <div class="mid-article">
                                 <div class="mid-article-img-2">
                                     <img
-                                        src="./image/article/mid-art-5.png"
+                                        src="<?= base_url()?>/public/assets/image/article/mid-art-5.png"
                                         alt=""
                                     />
                                 </div>
@@ -222,7 +222,7 @@
                                     <div>
                                         <div class="mid-author-img-2">
                                             <img
-                                                src="./image/author/4.png"
+                                                src="<?= base_url()?>/public/assets/image/author/4.png"
                                                 alt=""
                                             />
                                         </div>
@@ -239,7 +239,7 @@
                             <div class="mid-article">
                                 <div class="mid-article-img-2">
                                     <img
-                                        src="./image/article/mid-art-6.png"
+                                        src="<?= base_url()?>/public/assets/image/article/mid-art-6.png"
                                         alt=""
                                     />
                                 </div>
@@ -256,7 +256,7 @@
                                     <div>
                                         <div class="mid-author-img-2">
                                             <img
-                                                src="./image/author/2.png"
+                                                src="<?= base_url()?>/public/assets/image/author/2.png"
                                                 alt=""
                                             />
                                         </div>
@@ -275,7 +275,7 @@
                             <div class="bot-article">
                                 <div class="bot-article-img">
                                     <img
-                                        src="./image/article/mid-art-7.png"
+                                        src="<?= base_url()?>/public/assets/image/article/mid-art-7.png"
                                         alt=""
                                     />
                                 </div>
@@ -293,7 +293,7 @@
                                     <div>
                                         <div class="bot-author-img">
                                             <img
-                                                src="./image/author/3.png"
+                                                src="<?= base_url()?>/public/assets/image/author/3.png"
                                                 alt=""
                                             />
                                         </div>
@@ -310,7 +310,7 @@
                             <div class="bot-article">
                                 <div class="bot-article-img">
                                     <img
-                                        src="./image/article/mid-art-8.png"
+                                        src="<?= base_url()?>/public/assets/image/article/mid-art-8.png"
                                         alt=""
                                     />
                                 </div>
@@ -453,7 +453,7 @@
                             <li class="post">
                                 <div class="post-img">
                                     <img
-                                        src="./image/right-panel/post-img-1.png"
+                                        src="<?= base_url()?>/public/assets/image/right-panel/post-img-1.png"
                                         alt=""
                                     />
                                 </div>
@@ -475,7 +475,7 @@
                             <li class="post">
                                 <div class="post-img">
                                     <img
-                                        src="./image/right-panel/post-img-2.png"
+                                        src="<?= base_url()?>/public/assets/image/right-panel/post-img-2.png"
                                         alt=""
                                     />
                                 </div>
@@ -497,7 +497,7 @@
                             <li class="post">
                                 <div class="post-img">
                                     <img
-                                        src="./image/right-panel/post-img-3.png"
+                                        src="<?= base_url()?>/public/assets/image/right-panel/post-img-3.png"
                                         alt=""
                                     />
                                 </div>
@@ -519,7 +519,7 @@
                             <li class="post">
                                 <div class="post-img">
                                     <img
-                                        src="./image/right-panel/post-img-4.png"
+                                        src="<?= base_url()?>/public/assets/image/right-panel/post-img-4.png"
                                         alt=""
                                     />
                                 </div>

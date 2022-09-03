@@ -6,7 +6,7 @@
                         </h1>
                         <button>READ MORE</button>
                         <div class="author">
-                            <img src="./image/author/1.png" alt="" />
+                            <img src="<?= base_url()?>/public/assets/image/author/1.png" alt="" />
                             <p class="name">Henry Little</p>
                             <p class="date">April 28,2016 10:15</p>
                         </div>
