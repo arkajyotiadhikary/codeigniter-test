@@ -5,8 +5,8 @@ namespace Config;
 use CodeIgniter\Config\View as BaseView;
 use CodeIgniter\View\ViewDecoratorInterface;
 
-class View extends BaseView
-{
+class View extends BaseView {
+
     /**
      * When false, the view method will clear the data between each
      * call. This keeps your data safe and ensures there is no accidental
@@ -32,7 +32,8 @@ class View extends BaseView
      *
      * @var array
      */
-    public $filters = [];
+    public $filters = [
+    ];
 
     /**
      * Parser Plugins provide a way to extend the functionality provided
@@ -53,4 +54,5 @@ class View extends BaseView
      * @var class-string<ViewDecoratorInterface>[]
      */
     public array $decorators = [];
+
 }

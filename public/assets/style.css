@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+}
+.err{
+    width: 15rem;
+    height: 4rem;
+    margin: 0.5rem 0;
+    border: 1px solid coral;
+    background-color: antiquewhite;
+    border-radius: 5px;
+}
+.err>ul{
+    font-size: small;
+    color: coral;
+    list-style: none;
+    padding: 0.5rem;
+}
+
+.top-background{
+    background-size: cover;
+    background-position: 0 -30px;
+    width: 15rem;
+    height: 5rem;
+    background-image: url("/image/doodles-vibes-vibes.gif");
+}
+form{
+    width: 15rem;
+}

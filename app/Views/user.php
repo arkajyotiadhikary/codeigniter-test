@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
     <head>
-        <title>{title}</title>
+        <title>{title|upper}</title>
     </head>
     <body>
         <h1>{username}</h1>
